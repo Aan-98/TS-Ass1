@@ -1,13 +1,4 @@
 "use strict";
 //Assignment Question # 45
-function orderSandwich(...items) {
-    if (items.length === 0) {
-        console.log("You didn't choose any items for your sandwich.");
-    }
-    else {
-        console.log("You ordered a sandwich with the following items: " + items.join(", "));
-    }
-}
-orderSandwich("Turkey", "Lettuce", "Tomato", "Mayo");
-orderSandwich("Ham", "Cheese");
-orderSandwich("Chicken", "Bacon", "Avocado", "Mustard", "Pickles");
+// Cars: Write a function that stores information about a car in an Object. The function should always receive a manufacturer and a model name. It should then accept an arbitrary number of keyword arguments. Call the function with the required information and two other name-value pairs, such as a color or an optional feature. Print the object that's returned to make sure all the information was stored correctly.
+// N.A

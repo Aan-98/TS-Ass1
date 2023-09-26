@@ -7,4 +7,15 @@ console.log(prsnName.toLowerCase());
 console.log(prsnName.toUpperCase());
 // for TitleCase 
 
-// (title case ni aata Sirrrrrr)
+function toTitleCase (pName : string ) : string {
+    let person_name = pName.split (' ');
+    let nameMaped = person_name.map ((name) => {
+        return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+    });
+    let titleCased = nameMaped.join (' ');
+    return titleCased;
+};
+
+let randon_name = "amar  eLAHI";
+let nametitleCased = toTitleCase(randon_name);
+console.log(nametitleCased);
